@@ -1,0 +1,38 @@
+.app {
+  height: 90vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 5rem 0;
+  color: #1d3557;
+}
+
+.buttons button {
+  background-color: #1d3557;
+  border: none;
+  border-radius: 50%;
+  height: 96px;
+  width: 96px;
+  margin: 10px;
+  font-size: 32px;
+  color: white;
+  transition: all 0.3s;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.buttons button:hover {
+  cursor: pointer;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5px);
+}
+
+.buttons button.stop {
+  background-color: red;
+}
